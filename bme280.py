@@ -1,4 +1,11 @@
-# Author: Paul Cunnane 2016
+#
+# Author: Butch Anton 2017
+# Based on the work by #Author: Paul Cunnane 2016
+# All the good stuff is his.  I just added some bytearray wrapping
+# to work around a problem in the LoPy firmware (thanks, Alex!) and 
+# hacked in support for altitude (in meters).
+#
+# All comments below come from Paul's library.
 #
 # This module borrows heavily from the Adafruit BME280 Python library
 # and the Adafruit GPIO/I2C library. Original copyright notices are reproduced
